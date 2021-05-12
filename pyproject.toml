@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "imdb-experiments"
+version = "0.1.0"
+description = "IMBD dataset experiments"
+authors = ["albertocarot1 <acaroli1990@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = "^1.20.3"
+jupyterlab = "^3.0.15"
+gensim = "^4.0.1"
+pandas = "^1.2.4"
+tensorflow-datasets = "^4.3.0"
+pylint = "^2.8.2"
+testfixtures = "^6.17.1"
+scikit-learn = "^0.24.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
