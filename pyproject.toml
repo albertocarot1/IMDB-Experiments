@@ -6,7 +6,7 @@ authors = ["albertocarot1 <acaroli1990@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
-numpy = "^1.20.3"
+numpy = "^1.22.0"
 jupyterlab = "^3.0.15"
 gensim = "^4.0.1"
 pandas = "^1.2.4"
